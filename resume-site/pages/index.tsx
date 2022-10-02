@@ -60,8 +60,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>AI Generated Tinder Bios!</title>
-        <meta name="description" content="Generate Tinder Bios since none of you know how" />
+        <title>AI Generated Resume Bios!</title>
+        <meta name="description" content="Generate professional resume bios" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* {user ? (
