@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Form from "./form";
 import Results from "./results";
 import Image from "next/image";
-import Logo from '../public/logo.png';
+// import Logo from '../public/logo.png';
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useRouter } from 'next/router'
@@ -106,7 +106,7 @@ const Generator: React.FC = () => {
             <div className="max-w-md m-auto p-2">
                 <div className="bg-slate-200 p-6 rounded-md text-white">
                     <div className="text-center my-6">
-                        <Image src={Logo} width={128} height={128} alt='logo'/>
+                        {/* <Image src={Logo} width={128} height={128} alt='logo'/> */}
                         <h1 className={gradientTextStyle + "text-3xl font-light w-fit mx-auto"}>Welcome to the AI assisted Resume Bio generator!</h1>
                         <div className={gradientTextStyle}>Generate bios with a few keywords and personality traits which you would like to include</div>
                     </div>

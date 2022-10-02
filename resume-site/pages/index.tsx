@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Generator from '../components/generator'
-import Logo from '../public/logo.png'
+// import Logo from '../public/logo.png'
 import { initFirebase } from '../firebase/firebaseApp'
 import styles from '../styles/Home.module.css'
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
