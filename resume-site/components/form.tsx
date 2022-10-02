@@ -26,7 +26,9 @@ const Form: React.FC<FormProps> = (props) => {
     return (
         <>
         <div className="mb-6">
-            <p className="text-blue-500">Enter a few words that you would throw into a bio. Like... "MERN Stack, Python, Amazon Web Services, Machine Learning, AI, hardworking, dedicated." </p>
+            <p className="text-blue-500">Enter a few words that you would throw into a bio. Like... "MERN Stack, Python, Amazon Web Services, Machine Learning, AI, hardworking, dedicated."</p>
+            <div/>
+            <p className="text-red-700 mt-6">Make sure to end your entry with a period '.'</p>
         </div>
             <input className="p-2 w-full rounded-md focus:outline-teal-400 focus:outline text-slate-700" type='text' placeholder='MERN Stack, Python, Amazon Web Services...' value={props.prompt} onChange={(e) => updatePromptValue(e.currentTarget.value)}></input>
             <div className={statusColor + " flex justify-between my-2 mb-6 text-sm"}>

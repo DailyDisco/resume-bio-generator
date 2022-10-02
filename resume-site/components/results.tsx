@@ -20,7 +20,7 @@ const Results: React.FC<ResultsProps> = (props) => {
 
     const resultSection = (label: string, body: any) => {
         return (
-          <div className="bg-pink-400 p-4 my-3 rounded-md">
+          <div className="bg-blue-600 p-4 my-3 rounded-md bg-opacity-100">
             <div className="text-gold-400 text-sm font-bold mb-4">{label}</div>
             <div>{body}</div>
           </div>
@@ -39,7 +39,7 @@ const Results: React.FC<ResultsProps> = (props) => {
           </div>
 
           <button
-            className="bg-gradient-to-r from-red-400 
+            className="bg-gradient-to-r from-blue-400 
             to-blue-500 disabled:opacity-50 w-full p-2 rounded-md text-lg"
             onClick={props.onBack}
           >
